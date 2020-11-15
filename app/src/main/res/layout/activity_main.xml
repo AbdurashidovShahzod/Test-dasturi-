@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/problem" />
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:background="#FFFFFF"
+        android:elevation="8dp"
+        app:cardCornerRadius="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/wendy_one"
+                android:gravity="center"
+                android:text="@string/Welcome"
+                android:textColor="@color/text1"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/wendy_one"
+                android:gravity="center"
+                android:text="@string/InpMsg"
+                android:textColor="@color/InpMsgColor"
+                android:textSize="12sp" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:baselineAligned="false">
+
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTxt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/wendy_one"
+                    android:hint="@string/hint"
+                    android:textColorHint="@color/black"
+                    android:textColor="@color/black" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_start"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/text_shape"
+                android:fontFamily="@font/wendy_one"
+                android:text="@string/btnText"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:cornerRadius="10dp" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/aboutBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/text_shape"
+                android:fontFamily="@font/wendy_one"
+                android:text="dastur haqida"
+                android:textColor="@android:color/white"
+                android:textSize="18sp"
+                app:cornerRadius="10dp" />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

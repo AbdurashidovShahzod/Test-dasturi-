@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="Welcome">Assolomu alekum PDP online talim platformasining test dasturiga xush kelibsiz.</string>
+    <string name="InpMsg">Testda ishtirok etish uchun ism familiyangizni kiriting</string>
+    <string name="hint">Ism...</string>
+    <string name="btnText">Boshlash</string>
+    <string name="question1">Internet nima?</string>
+    <string name="question2">Xab (hub) nima?</string>
+    <string name="question3">IP – adreslarning soni?</string>
+    <string name="question4">LAN va WAN nima?</string>
+    <string name="question5">PDP qanday platforma?</string>
+    <string name="aboutMe">Developer:Abdurashidov Shahzod Contact:+998935336778 Telegram:@studentTUIT Github:https://github.com/AbdurashidovShahzod</string>
+</resources>

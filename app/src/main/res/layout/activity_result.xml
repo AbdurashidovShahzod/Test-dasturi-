@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="214dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/pdpp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="Natija"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/resTvUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bungee"
+        android:text="Username"
+        android:textColor="@android:color/black"
+        android:textSize="22sp"
+        />
+
+    <TextView
+        android:id="@+id/restv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/bungee"
+        android:text="Your score"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btn_finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Finish"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:fontFamily="@font/wendy_one"
+        android:layout_marginBottom="10dp"
+        android:text="Bizni tanlaganingizdan xursandmiz PDP bilan qoling"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+</LinearLayout>

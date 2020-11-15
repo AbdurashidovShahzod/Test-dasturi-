@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF"
+    tools:context=".QuizQuestionActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvQuesID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:fontFamily="@font/bungee"
+            android:text="@string/question5"
+            android:textColor="@color/text1"
+            android:textSize="24sp" />
+        <ImageView
+            android:id="@+id/ivImg"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/pdpp"/>
+
+
+        <LinearLayout
+            android:id="@+id/ll_progressBarDets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/ProgressBar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:indeterminate="false"
+                android:max="5"
+                android:minHeight="50dp"
+                android:progress="0" />
+
+            <TextView
+                android:id="@+id/tv_progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/purple_500"
+                android:padding="15dp"
+                android:textColorHint="@color/purple_500"
+                android:textSize="14sp"
+                tools:text="0/5" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvOption1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/default_option_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/text1"
+            android:textSize="17sp"
+            tools:text="Musiqa eshitish platformasi" />
+
+        <TextView
+            android:id="@+id/tvOption2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/default_option_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/text1"
+            android:textSize="17sp"
+            tools:text="Kitob yuklab olish platformasi" />
+
+        <TextView
+            android:id="@+id/tvOption3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/default_option_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/text1"
+            android:textSize="17sp"
+            tools:text="Online talim platformasi" />
+
+        <TextView
+            android:id="@+id/tvOption4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/default_option_bg"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textColor="@color/text1"
+            android:textSize="17sp"
+            tools:text="O'yin platformasi" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/text_shape"
+            android:fontFamily="@font/bungee"
+            android:text="Tanlash"
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</ScrollView>
